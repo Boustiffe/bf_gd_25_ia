@@ -1208,6 +1208,9 @@ MonoBehaviour:
   - rid: 614954779385004255
   - rid: 614954779385004260
   - rid: 614954779385004999
+  - rid: 6743710659728638449
+  - rid: 6743710659728638450
+  - rid: 6743710659850010977
   m_OriginalGraph: {fileID: 0}
   m_IsInitialised: 0
   m_IsStarted: 0
@@ -1278,6 +1281,30 @@ MonoBehaviour:
           m_Value1: 3304202832614121429
         Name: Player
         m_Value: {fileID: 1969089124}
+    - rid: 6743710659728638449
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 5048925996056942949
+          m_Value1: 10715313457008462010
+        Name: Bleed
+        m_Value: {fileID: 7914164315856010338, guid: 6b719ea77a6d83843b170507c7333a7c, type: 3}
+    - rid: 6743710659728638450
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 10357150330682214541
+          m_Value1: 1613504235890425299
+        Name: Explode
+        m_Value: {fileID: 2168896747217035040, guid: 617388664acd68a4db97396da60830b6, type: 3}
+    - rid: 6743710659850010977
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 15118406540805959254
+          m_Value1: 8473581037671920364
+        Name: OppositePosition
+        m_Value: {fileID: 1948693752}
 --- !u!50 &1477715773
 Rigidbody2D:
   serializedVersion: 5
@@ -1816,7 +1843,7 @@ GameObject:
   - component: {fileID: 1904546467}
   - component: {fileID: 1904546469}
   - component: {fileID: 1904546468}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1887,6 +1914,11 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0.7507653, y: 0}
   m_Radius: 1.2507653
+--- !u!1 &1948693752 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6958849610008833010, guid: fe019d9614f3e0c49abc8da66e826335, type: 3}
+  m_PrefabInstance: {fileID: 1243517775}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1952602338
 PrefabInstance:
   m_ObjectHideFlags: 0
