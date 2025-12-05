@@ -1208,6 +1208,8 @@ MonoBehaviour:
   - rid: 614954779385004255
   - rid: 614954779385004260
   - rid: 614954779385004999
+  - rid: 614954780505670411
+  - rid: 614954780505670412
   m_OriginalGraph: {fileID: 0}
   m_IsInitialised: 0
   m_IsStarted: 0
@@ -1238,6 +1240,22 @@ MonoBehaviour:
           m_Value1: 2467345426929443105
         Name: BossHealth
         m_Value: {fileID: 1904546466}
+    - rid: 614954780505670411
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 10357150330682214541
+          m_Value1: 1613504235890425299
+        Name: Explode
+        m_Value: {fileID: 2168896747217035040, guid: 617388664acd68a4db97396da60830b6, type: 3}
+    - rid: 614954780505670412
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 5048925996056942949
+          m_Value1: 10715313457008462010
+        Name: Bleed
+        m_Value: {fileID: 7914164315856010338, guid: 6b719ea77a6d83843b170507c7333a7c, type: 3}
     - rid: 4645555404788990116
       type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
